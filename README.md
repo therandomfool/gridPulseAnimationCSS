@@ -8,5 +8,11 @@
 - :nth-child(even/odd)
 - animation
 ![pulse grid animation](img/pulse.gif)
-![pulse grid animation](img/pulse.gif2)
-![pulse grid animation](img/pulse.gif3)
+
+- *
+
+![pulse grid animation2](img/pulse.gif2)
+
+- *
+
+![pulse grid animation3](img/pulse.gif3)
