@@ -11,8 +11,8 @@
 
 - *
 
-![pulse grid animation2](img/pulse.gif2)
+![pulse grid animation2](img/pulse2.gif)
 
 - *
 
-![pulse grid animation3](img/pulse.gif3)
+![pulse grid animation3](img/pulse3.gif)
