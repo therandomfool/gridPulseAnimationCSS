@@ -1,0 +1,50 @@
+
+
+body{
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.grid{
+    perspective: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    max-width: 480px;
+    transform: rotate(45deg);
+
+}
+
+.grid div{
+    background: rgba(255,255,255,0.18);
+    border: 7px ridge rgba(200,200,200, 0.25);
+    padding: 30px;
+    color: transparent;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    height: 70px;
+    width: 70px;
+
+}
+
+.grid div:nth-child(odd){
+    animation: 1s ease-in-out infinite alternate pulse;
+    
+}
+
+.grid div:nth-child(even){
+    animation: 1s 1s ease-in-out infinite alternate pulse;
+}
+
+@keyframes pulse{
+    to{
+        transform: translate3d(0px, 0px, -50px);
+        box-shadow: 0 0 15px rgba(0,0,0,0.6);
+        background: rgba(0,0,0,0.2);
+    }
+}
+
