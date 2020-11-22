@@ -7,4 +7,6 @@
 - transform:rotate()
 - :nth-child(even/odd)
 - animation
-![pulse grid animation](img/pulse.gif)(img/pulse.gif2)(img/pulse.gif3)
+![pulse grid animation](img/pulse.gif)
+![pulse grid animation](img/pulse.gif2)
+![pulse grid animation](img/pulse.gif3)
